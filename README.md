@@ -49,7 +49,6 @@ Key components include:
 
 ## 📁 Project Structure
 
-'''
 ecommerce-project/
 ├── dashboard/ # Power BI dashboard screenshots
 │ ├── Business_performance.png
@@ -73,7 +72,6 @@ ecommerce-project/
 ├── aws_ecommerce_etl_ml_pipeline.ipynb # ML pipeline notebook
 ├── architecture.png # Pipeline diagram
 └── README.md
-'''
 
 ---
 
