@@ -49,12 +49,29 @@ Key components include:
 
 ## 📁 Project Structure
 
-── dashboard/ → Power BI dashboard screenshots
-├── data/ → Athena query outputs
-├── rawdata/ → Raw datasets
-├── sql/ → Athena SQL queries
-├── architecture.png → Pipeline diagram
-├── aws_ecommerce_etl_ml_pipeline.ipynb → ML notebook
+
+ecommerce-project/
+├── dashboard/ # Power BI dashboard screenshots
+│ ├── Business_performance.png
+│ ├── Customer_Segmentation.png
+│ └── Churn_Risk_Intelligence.png
+│
+├── data/ # Athena query outputs
+│ ├── query_a_monthly_revenue.csv
+│ ├── query_b_top_categories.csv
+│ ├── query_c_avg_reviews.csv
+│ └── query_d_customer_frequency.csv
+│
+├── rawdata/ # Raw datasets (CSV files)
+│
+├── sql/ # Athena SQL queries
+│ ├── query_a_monthly_revenue.sql
+│ ├── query_b_top_categories.sql
+│ ├── query_c_avg_reviews.sql
+│ └── query_d_customer_frequency.sql
+│
+├── aws_ecommerce_etl_ml_pipeline.ipynb # ML pipeline notebook
+├── architecture.png # Pipeline diagram
 └── README.md
 
 
